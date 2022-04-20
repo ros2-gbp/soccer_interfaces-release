@@ -1,0 +1,8 @@
+ros-humble-soccer-vision-3d-msgs (0.0.1-2jammy) jammy; urgency=high
+
+  * Initial soccer vision 3d msgs package including Ball.msg, BallArray.msg, FieldBoundary.msg, Goalpost.msg, GoalpostArray.msg, MarkingArray.msg, MarkingEllipse.msg, MarkingIntersection.msg, MarkingSegment.msg, Obstacle.msg, ObstacleArray.msg, Robot.msg, RobotArray.msg
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 16 Apr 2022 07:00:00 -0000
+
+
