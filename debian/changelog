@@ -1,0 +1,8 @@
+ros-humble-soccer-vision-attribute-msgs (0.0.1-2jammy) jammy; urgency=high
+
+  * Initial soccer vision attribute msgs package, including Confidence.msg, Goalpost.msg, Robot.msg
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 16 Apr 2022 07:00:00 -0000
+
+
