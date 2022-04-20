@@ -1,11 +1,30 @@
-# soccer_vision_attribute_msgs
+# soccer_interfaces
+A set of packages which contain common soccer interface files
 
-This package provides messages for attributes for objects on a soccer field, such as balls, field markings and robots, that could be visually detected.
+[![Build and Test (foxy)](https://github.com/ros-sports/soccer_interfaces/actions/workflows/build_and_test_foxy.yaml/badge.svg?branch=galactic)](https://github.com/ros-sports/soccer_interfaces/actions/workflows/build_and_test_foxy.yaml?query=branch:galactic)
+[![Build and Test (galactic)](https://github.com/ros-sports/soccer_interfaces/actions/workflows/build_and_test_galactic.yaml/badge.svg?branch=galactic)](https://github.com/ros-sports/soccer_interfaces/actions/workflows/build_and_test_galactic.yaml?query=branch:galactic)
+[![Build and Test (rolling)](https://github.com/ros-sports/soccer_interfaces/actions/workflows/build_and_test_rolling.yaml/badge.svg?branch=rolling)](https://github.com/ros-sports/soccer_interfaces/actions/workflows/build_and_test_rolling.yaml?query=branch:rolling)
 
-Such attributes can be defined separatly in ``soccer_vision_2d_msgs`` and ``soccer_vision_3d_msgs``, but due to large overlap in information, this package aims to abstract out the attributes that aren't specific to 2d/3d vision.
+## Installation
 
-``soccer_vision_2d_msgs`` and ``soccer_vision_3d_msgs`` should depend on this package.
+### For ROS2 Rolling
+
+Only source installation is available. Run the following in your ROS workspace:
+
+```
+git clone https://github.com/ros-sports/soccer_interfaces.git src/soccer_interfaces
+colcon build --allow-overriding vision_msgs
+```
+
+### For ROS2 Foxy and Galactic
+
+Only source installation is available. Run the following in your ROS workspace:
+
+```
+git clone https://github.com/ros-sports/soccer_interfaces.git src/soccer_interfaces --branch galactic
+colcon build
+```
 
 ## Documentation
 
-For documentation, see [Soccer Vision Attribute Msgs](https://soccer-interfaces.readthedocs.io/en/latest/soccer_vision_attribute_msgs.html).
+For documentation, see [Soccer Interfaces](https://soccer-interfaces.readthedocs.io/en/latest/).
