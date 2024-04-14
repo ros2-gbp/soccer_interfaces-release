@@ -2,6 +2,11 @@
 Changelog for package soccer_vision_3d_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2024-04-14)
+------------------
+* Add comment about FieldBoundary when empty (`#59 <https://github.com/ros-sports/soccer_interfaces/issues/59>`_)
+* Contributors: Jan Gutsche, Kenji Brameld
+
 0.2.0 (2022-06-14)
 ------------------
 
