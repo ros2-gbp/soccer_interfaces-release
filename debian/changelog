@@ -1,0 +1,20 @@
+ros-iron-soccer-vision-attribute-msgs (0.3.0-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Sun, 14 Apr 2024 00:00:00 -0000
+
+ros-iron-soccer-vision-attribute-msgs (0.2.0-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Tue, 14 Jun 2022 00:00:00 -0000
+
+ros-iron-soccer-vision-attribute-msgs (0.0.1-1jammy) jammy; urgency=high
+
+  * Initial soccer vision attribute msgs package, including Confidence.msg, Goalpost.msg, Robot.msg
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 16 Apr 2022 00:00:00 -0000
+
+
