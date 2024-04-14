@@ -1,0 +1,12 @@
+Source: ros-iron-soccer-interfaces
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-soccer-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-soccer-vision-2d-msgs, ros-iron-soccer-vision-3d-msgs, ros-iron-soccer-vision-attribute-msgs, ros-iron-ros-workspace
+Description: Metapackage for soccer-related interfaces
