@@ -1,3 +1,32 @@
+## soccer_interfaces (iron) - 0.3.0-1
+
+The packages in the `soccer_interfaces` repository were released into the `iron` distro by running `/usr/bin/bloom-release --rosdistro iron soccer_interfaces -e` on `Sun, 14 Apr 2024 13:48:50 -0000`
+
+These packages were released:
+- `soccer_geometry_msgs`
+- `soccer_interfaces`
+- `soccer_model_msgs`
+- `soccer_vision_2d_msgs`
+- `soccer_vision_3d_msgs`
+- `soccer_vision_attribute_msgs`
+
+Version of package(s) in repository `soccer_interfaces`:
+
+- upstream repository: https://github.com/ros-sports/soccer_interfaces.git
+- release repository: https://github.com/ros2-gbp/soccer_interfaces-release.git
+- rosdistro version: `0.2.0-3`
+- old version: `0.2.0-3`
+- new version: `0.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## soccer_interfaces (rolling) - 0.2.0-1
 
 The packages in the `soccer_interfaces` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling soccer_interfaces --edit` on `Tue, 14 Jun 2022 13:02:26 -0000`
