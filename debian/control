@@ -1,0 +1,12 @@
+Source: ros-kilted-soccer-interfaces
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-soccer-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-soccer-vision-2d-msgs, ros-kilted-soccer-vision-3d-msgs, ros-kilted-soccer-vision-attribute-msgs, ros-kilted-ros-workspace
+Description: Metapackage for soccer-related interfaces
