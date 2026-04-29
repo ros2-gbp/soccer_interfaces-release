@@ -1,0 +1,12 @@
+Source: ros-lyrical-soccer-vision-attribute-msgs
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rosidl-default-generators, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/soccer_vision_attribute_msgs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-soccer-vision-attribute-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-rosidl-default-runtime, ros-lyrical-ros-workspace
+Description: A package containing attributes of objects in 2d/3d vision in the soccer domain.
