@@ -1,0 +1,12 @@
+Source: ros-lyrical-soccer-interfaces
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/soccer_interfaces/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-soccer-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-soccer-vision-2d-msgs, ros-lyrical-soccer-vision-3d-msgs, ros-lyrical-soccer-vision-attribute-msgs, ros-lyrical-ros-workspace
+Description: Metapackage for soccer-related interfaces
