@@ -1,0 +1,12 @@
+Source: ros-lyrical-soccer-model-msgs
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-generators, ros-lyrical-soccer-geometry-msgs, ros-lyrical-soccer-vision-attribute-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/soccer_model_msgs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-soccer-model-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-geometry-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-soccer-geometry-msgs, ros-lyrical-soccer-vision-attribute-msgs, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: A package containing world model related message definitions in the soccer domain.
