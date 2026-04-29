@@ -1,0 +1,12 @@
+Source: ros-lyrical-soccer-vision-3d-msgs
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rosidl-default-generators, ros-lyrical-soccer-vision-attribute-msgs, ros-lyrical-vision-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/soccer_vision_3d_msgs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-soccer-vision-3d-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-rosidl-default-runtime, ros-lyrical-soccer-vision-attribute-msgs, ros-lyrical-vision-msgs, ros-lyrical-ros-workspace
+Description: A package containing some 3D vision related message definitions in the soccer domain.
